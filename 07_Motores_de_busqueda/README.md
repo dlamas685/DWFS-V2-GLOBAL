@@ -1,5 +1,20 @@
 # Motores de Búsqueda
 
+## Consumo de Back-End desde Postman
+
+Para probar los servicios back-end de forma directa puedes importar la colección de Postman incluida en este repositorio:
+
+📁 [`00_Otros_Recursos/UNIR Supplies Back-End.postman_collection.json`](../00_Otros_Recursos/UNIR%20Supplies%20Back-End.postman_collection.json)
+
+La carpeta de la colección relevante para este tema es:
+
+### 📂 05 - Search Engine
+Recoge las operaciones relacionadas con el motor de búsqueda (OpenSearch/Elasticsearch):
+- **Migration**: lanza el proceso de migración/sincronización de los datos desde la base de datos relacional hacia el índice de OpenSearch, asegurando que ambas fuentes queden alineadas.
+- **Obtener datos**: realiza búsquedas de suministros contra el índice, con soporte para búsqueda por texto libre (nombre) y filtrado por tipo, explotando las capacidades del motor de búsqueda.
+
+---
+
 ## Front-end
 ```bash
 cd front-end-supplies-12-elastic
